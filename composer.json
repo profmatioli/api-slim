@@ -1,0 +1,17 @@
+{
+    "name": "matioli/apidemo",
+    "description": "Demo de como criar uma api",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matioli",
+            "email": "matioli@sengi.com.br"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.10"
+    },
+    "autoload": {
+        "psr-4":{"MyApi\\": "src/"}
+    }
+}
